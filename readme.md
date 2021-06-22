@@ -1,6 +1,6 @@
 # Connect Raspberry Pi to Laptop Wirelessly
 
-**This tutorial covers how to connect Raspberrpy Pi to Laptop wirelessly. Share your Raspberry Pi screen on laptop screen and control it with laptop mouse and keyboard.**
+**This tutorial covers how to connect Raspberry Pi to Laptop wirelessly. Share your Raspberry Pi screen on laptop screen and control it with laptop mouse and keyboard.**
 
 **We will soon make a YouTube Tutorial which will be posted [here.](https://www.youtube.com/c/samvidita)**
 
@@ -50,7 +50,7 @@ Using [SSH](https://www.raspberrypi.org/documentation/remote-access/ssh/) we can
 
 ![ssh](doc/ssh.png)
 
-After enabling SSH, [Cofigure Wifi.](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md) We need to add the details of the wireless network to which we want to connect our Raspberry Pi. Basically we need to create `wpa_supplicant.conf` file and palce it in a boot partion. During boot Raspberry Pi will connect to the wireless network of which detaisl are given. Open any text editor and add following lines
+After enabling SSH, [Cofigure Wifi.](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md) We need to add the details of the wireless network to which we want to connect our Raspberry Pi. Basically we need to create `wpa_supplicant.conf` file and palce it in a boot partion. During boot Raspberry Pi will connect to the wireless network of which details are given. Open any text editor and add following lines
 
     ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
     update_config=1
@@ -117,13 +117,13 @@ After successful login you can see Raspberry Pi desktop interface on your laptop
 
 ![VNCError](doc/VNCError.png)
 
-Some time we will face this issue while connecting with VNC Viewer. This is beacuse of the resolution we set in the Raspberry Pi configuration. To solve this issue follow the below steps.
+Some time we will face this issue while connecting with VNC Viewer. This is because of the resolution we set in the Raspberry Pi configuration. To solve this issue follow the below steps.
 
 Open SSH client (PuTTY in our case), connect to Raspberry Pi and login with the credentials. Then Go to Raspberry Pi configuration window by typing `sudo raspi-config` in command line. (These steps are mentioned above). In the configuration menu select dispaly settings
 
 ![DisplaySettings](doc/DisplaySettings.png)
 
-Then select resolution and change the resolution from `decfault` to any othe resolution.
+Then select resolution and change the resolution from `default` to any other resolution.
 
 ![Resolution](doc/Resolution.png)
 
