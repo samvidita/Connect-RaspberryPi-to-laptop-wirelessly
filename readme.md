@@ -6,12 +6,13 @@
 
 ## Table of content
 
-1. Install Raspberry Pi Imager and download OS
-2. Flash OS to microSD card
-3. Enable SSH and configure WiFi
-4. Enable VNC and Configure Raspberry Pi
-5. Share Raspberry Pi screen with VNC viewer
-6. Appendix
+1. [Install Raspberry Pi Imager and download OS](https://github.com/samvidita/Connect-RaspberryPi-to-laptop-wirelessly#step1--install-raspberry-pi-imager-and-download-os)
+2. [Flash OS to microSD card](https://github.com/samvidita/Connect-RaspberryPi-to-laptop-wirelessly#step2--flash-os-to-microsd-card)
+3. [Enable SSH and configure WiFi](https://github.com/samvidita/Connect-RaspberryPi-to-laptop-wirelessly#step3--enable-ssh-and-configure-wifi)
+4. [Enable VNC and Configure Raspberry Pi](https://github.com/samvidita/Connect-RaspberryPi-to-laptop-wirelessly#step4--enable-vnc-and-configure-raspberry-pi)
+5. [Share Raspberry Pi screen with VNC viewer](https://github.com/samvidita/Connect-RaspberryPi-to-laptop-wirelessly#step5--share-raspberry-pi-screen-with-vnc-viewer)
+6. [Appendix](https://github.com/samvidita/Connect-RaspberryPi-to-laptop-wirelessly#appendix)
+7. [Quick links](https://github.com/samvidita/Connect-RaspberryPi-to-laptop-wirelessly#quick-links)
 
 ## Step1 : Install Raspberry Pi Imager and download OS
 
