@@ -2,7 +2,7 @@
 
 **This tutorial covers how to connect Raspberry Pi to Laptop wirelessly. Share your Raspberry Pi screen on laptop screen and control it with laptop mouse and keyboard.**
 
-**We will soon make a YouTube Tutorial which will be posted [here.](https://www.youtube.com/c/samvidita)**
+**We will soon make a YouTube Tutorial which will be posted [here.](https://youtu.be/I-vCFP2jD1g)**
 
 ## Table of content
 
